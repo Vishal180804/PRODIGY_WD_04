@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="task4.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="left">
+                <span class="name">Vishal's Portfolio</span>
+            </div>
+            <div class="right">
+                <ul class="nav">
+                    <li class="navlist"><a href="#" class="navlink">Home</a></li>
+                    <li class="navlist"><a href="#" class="navlink">About</a></li>
+                    <li class="navlist"><a href="#" class="navlink">Services</a></li>
+                    <li class="navlist"><a href="#" class="navlink">Project</a></li>
+                    <li class="navlist"><a href="#" class="navlink">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="sec1">
+            <div class="leftSec">
+                Hello! My name is <span class="purple">Vishal</span>.
+                I am <span id="poss" class="purple"></span>
+                <div class="btn">
+                    <button class="b1"><a>Download Resume</a></button>
+                    <button class="b2"><a href="https://github.com/Vishal180804">GitHub</a></button>
+                </div>
+            </div>
+            <div class="rightSec">
+                <img src="img.webp" alt="img">
+            </div>
+
+        </section>
+
+        <hr>
+        <section class="sec2">
+
+            <div class="exp">
+                <h2>Past Experience</h2>
+                <ul class="exp-ul">
+                    <li class="exp-list">Currently intern at Prodigy InfoTech</li>
+                    
+                </ul>
+            </div>
+            <br><br>
+            <hr>
+            <div class="work">
+                <h2>What can i work with:</h2>
+                <ul class="work-ul">
+                    <li class="worklist">WebDev:HTML,CSS,JavaScript</li>
+                    <li class="worklist">Database:MySql,MongDB</li>
+                    <li class="worklist">Software Engineer:Python,Java,C++</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#poss', {
+            strings: ['Web Devloper', ' Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
